@@ -33,3 +33,28 @@ body {
 .slide.current {
   opacity: 1;
 }
+
+/* Background images */
+.slide:first-child {
+  background: url('./images/photo1.jpeg') no-repeat center center/cover;
+}
+
+.slide:nth-child(2) {
+  background: url('./images/photo2.jpeg') no-repeat center center/cover;
+}
+
+.slide:nth-child(3) {
+  background: url('./images/photo3.jpeg') no-repeat center center/cover;
+}
+
+.slide:nth-child(4) {
+  background: url('./images/photo4.jpeg') no-repeat center center/cover;
+}
+
+.slide:nth-child(5) {
+  background: url('./images/photo5.jpeg') no-repeat center center/cover;
+}
+
+.slide:nth-child(6) {
+  background: url('./images/photo6.jpeg') no-repeat center center/cover;
+}
