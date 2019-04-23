@@ -55,6 +55,33 @@ body {
   transition: all 0.7s ease-in-out 0.3s;
 }
 
+.buttons button#next {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+}
+
+.buttons button#prev {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+}
+
+.buttons button {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 13px 15px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.buttons button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
 /* Background images */
 .slide:first-child {
   background: url('./images/photo1.jpeg') no-repeat center center/cover;
