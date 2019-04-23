@@ -1,10 +1,10 @@
-# Sliding sign in & sign up form
+# Fullscreen responsive image slider
 
-A sign in and sign up form with sliding effect.
+An image slider that is fullscreen and responsive.
 
 Icons are taken from fontawesome.
 
-Responsiveness could be improved by making it sliding vertical instead.
+Images change on either click or after five seconds.
 
 ## Screenshot
 
